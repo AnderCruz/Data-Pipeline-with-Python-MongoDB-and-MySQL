@@ -1,11 +1,11 @@
-# 📦 Data Pipeline with Python, MongoDB, and MySQL | Nowa Analytics
+# Data Pipeline with Python, MongoDB, and MySQL
 
 This project was developed by Nowa Analytics as a data engineering solution for an e-commerce company.
 Our task was to design and implement a **data pipeline** that ingests product sales data from an API, stores it in both **NoSQL** and **relational** databases, and makes it available for different internal teams.
 
----
 
-## 🚀 Project Overview
+
+## Project Overview
 
 The company’s product sales data is available through an API.
 Our mission was to:
@@ -17,9 +17,9 @@ Our mission was to:
 
 This pipeline allows both **Data Science** and **BI** teams to work with the same dataset in the format that best suits their needs.
 
----
 
-## 🔧 Technologies Used
+
+## Technologies Used
 
 * **Python 3**
 * **MongoDB Atlas** (NoSQL database)
@@ -28,9 +28,9 @@ This pipeline allows both **Data Science** and **BI** teams to work with the sam
 * **mysql-connector-python** (MySQL Python driver)
 * **WSL** (Windows Subsystem for Linux, for MySQL setup)
 
----
 
-## 📊 Pipeline Steps
+
+## Pipeline Steps
 
 1. **Data Extraction**
 
@@ -53,9 +53,9 @@ This pipeline allows both **Data Science** and **BI** teams to work with the sam
    * Create database schema and tables
    * Insert processed data into MySQL for reporting and dashboard integration
 
----
 
-## 📁 Folder Structure
+
+## Folder Structure
 
 ```
 📂 data-pipeline
@@ -66,9 +66,9 @@ This pipeline allows both **Data Science** and **BI** teams to work with the sam
 └── .env.example         # Environment variable template
 ```
 
----
 
-## 📌 Key Learning Points
+
+## Key Learning Points
 
 * Building a full **ETL pipeline** in Python
 * Configuring and connecting to **MongoDB Atlas**
@@ -77,15 +77,14 @@ This pipeline allows both **Data Science** and **BI** teams to work with the sam
 * Connecting Python to MySQL for relational storage
 * Structuring Python code into reusable **functions**
 
----
 
-## 🤝 Contribution
+
+## Contribution
 
 This project is part of the Nowa Analytics Data Engineering portfolio. Contributions and suggestions are welcome via pull requests or issues.
 
----
 
-## 📬 Contact
+## Contact
 
 **Nowa Analytics**
 Delivering data-driven solutions for business impact.
